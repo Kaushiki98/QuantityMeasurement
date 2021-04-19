@@ -16,4 +16,8 @@ describe('Quantity Measurement for lenght', () => {
     assert.notEqual(length.yard(1), length.feet(1));
   });
 
+  it('Given 1 inch and 1 yard should return notequal', () => {
+    assert.notEqual(length.yard(1), length.inch(1));
+  });
+
 });
