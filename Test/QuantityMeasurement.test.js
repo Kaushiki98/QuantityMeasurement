@@ -26,7 +26,10 @@ describe('Quantity Measurement for lenght', () => {
 
   it('Given 2 inch and 5 centimeter should return equal', () => {
     assert.equal(length.inch(2), length.centimeter(5));
-});
+  });
 
+  it('Given 2 inch and 5 centimeter should return equal', () => {
+    assert.equal(length.inch(2), length.inch(2),4);
+  });
 
 });
