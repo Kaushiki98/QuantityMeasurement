@@ -28,5 +28,9 @@
   yard = (value) => {
     return value * 36
   };
+
+  inch = (value) => {
+    return value
+  }
 }
 module.exports = QuantityMeasurement;
