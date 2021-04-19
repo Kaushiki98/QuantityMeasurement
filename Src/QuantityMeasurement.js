@@ -37,7 +37,7 @@ class QuantityMeasurement {
     return value * 0.4;
   };
 
-  Addlength = (value1, value2) => {
+  addlength = (value1, value2) => {
      return value1 + value2;
   }
 }
