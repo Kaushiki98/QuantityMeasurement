@@ -36,7 +36,11 @@ describe('Quantity Measurement for lenght', () => {
     assert.equal(length.addlength(length.inch(2), length.feet(1)),14);
   });
 
-  it('Given 2 inch and 1 feet should return 24 inch', () => {
+  it('Given 2 feet and 1 feet should return 24 inch', () => {
     assert.equal(length.addlength(length.feet(1), length.feet(1)),24);
+  });
+
+  it('Given 2 inch and 2.5 centimeter should return 3 inch', () => {
+    assert.equal(length.addlength(length.inch(2), length.centimeter(2.5)),3);
   });
 });
