@@ -60,4 +60,8 @@ describe('Quantity Measurement for lenght', () => {
     assert.equal(length.addlength(length.liter(1), length.milliliter(1000)),2);
   });
 
+  it('Given grams and kilograms when 1 kilogram and 1000 grams should return equal', () => {
+    assert.equal(length.kilogram(1), length.grams(1000));
+  });
+  
 });

@@ -53,5 +53,13 @@ class QuantityMeasurement {
     return value * 0.001
   }
 
+  kilogram = (value) => {
+    return value
+  }
+
+  grams = (value) => {
+    return value * 0.001
+  }
+
 }
 module.exports = QuantityMeasurement;
