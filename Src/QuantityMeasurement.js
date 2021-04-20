@@ -61,5 +61,8 @@ class QuantityMeasurement {
     return value * 0.001
   }
 
+  tonne = (value) => {
+    return value * 1000
+  }
 }
 module.exports = QuantityMeasurement;
