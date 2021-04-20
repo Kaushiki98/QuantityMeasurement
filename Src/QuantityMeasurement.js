@@ -64,5 +64,13 @@ class QuantityMeasurement {
   tonne = (value) => {
     return value * 1000
   }
+
+  celsius = (value) => {
+    return (value * 9/5)+32
+  }
+
+  fahrenheit = (value) => {
+    return value
+  }
 }
 module.exports = QuantityMeasurement;
