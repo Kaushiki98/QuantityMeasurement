@@ -48,4 +48,8 @@ describe('Quantity Measurement for lenght', () => {
     assert.equal(length.gallon(1), length.liter(3.78));
   });
 
+  it('Given milliliter and liter when 1000 milliliter and 1 liter should return equal', () => {
+    assert.equal(length.milliliter(1000), length.liter(1));
+  });
+
 });
