@@ -52,4 +52,8 @@ describe('Quantity Measurement for lenght', () => {
     assert.equal(length.milliliter(1000), length.liter(1));
   });
 
+  it('Given gallon and liter when 1 gallon and 3.78 liter should return 7.57 liter', () => {
+    assert.equal(length.addlength(length.gallon(1), length.liter(3.78)),7.56);
+  });
+
 });
