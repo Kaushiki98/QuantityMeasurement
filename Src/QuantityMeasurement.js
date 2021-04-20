@@ -52,5 +52,6 @@ class QuantityMeasurement {
   milliliter = (value) => {
     return value * 0.001
   }
+
 }
 module.exports = QuantityMeasurement;
