@@ -40,5 +40,13 @@ class QuantityMeasurement {
   addlength = (value1, value2) => {
      return value1 + value2;
   }
+
+  gallon = (value) => {
+    return value * 3.78
+  }
+
+  liter = (value) => {
+    return value
+  }
 }
 module.exports = QuantityMeasurement;
