@@ -68,4 +68,7 @@ describe('Quantity Measurement for lenght', () => {
     assert.equal(length.kilogram(1000), length.tonne(1));
   });
   
+  it('Given tonne and grams when 1 tonne and 1000 grams should return 1001 kilograms', () => {
+    assert.equal(length.addlength(length.tonne(1), length.grams(1000)),1001);
+  });
 });
